@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="js/bootstrap.js">
+  <script src="main.js" ></script>
+  <title>Your Resume</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" style="margin-left: 30px;">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 97%;">
+        <a class="navbar-brand" href="admin_home_page.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="education_details_page.html">Education<span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Experience_details_page.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="skill_page.html">Skills</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" style="margin-right: 10px;">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+              style="margin-right: 10px;">Logout</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+  </div>
+  <div class="container">
+    <form action="#" class="was-validated">
+
+      <div class="details personal" style="width: 100%;">
+        <div class="form first" style="margin-left: 10%;">
+          <div class="row">
+            <!-- <h2>Personal Details</h2> -->
+            <div class="row">
+              <div class="col-sm-6">
+              </div>
+              <div class="col-sm-6">
+              </div>
+              <!-- Full Section -->
+              <div class="col-sm-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Hemal Patel" height="250x"
+                  style="margin-left:3px;"><br><br>
+              </div>
+              <div class="col-sm-4">
+                <div class="fields">
+                  <div class="input-field">
+                    <label>First Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                  </div>
+                  <div class="input-field">
+                    <label>Email</label>
+                    <input type="text" placeholder="Enter your email" required>
+                  </div>
+                  <div class="input-field">
+                    <label>Date of Birth</label>
+                    <input type="date" placeholder="Enter birth date" required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="input-field">
+                  <label>last Name</label>
+                  <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-field">
+                  <label>Gender</label>
+                  <input type="text" placeholder="Gender" required>
+                </div>
+                <div class="input-field">
+                  <label>Role</label>
+                  <input type="text" placeholder="Enter your role" required>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+
+              <button style="margin-left: 60px;">Add Photo</button>
+            </div>
+            <div class="col-sm-6">
+              <div class="fields">
+                <div class="input-field">
+                  <label for="about" style="margin-left: 8px;">Address:</label><br>
+                  <textarea name="About" id="about" cols="20" rows="10"
+                    style="width:108%; margin-left:8px; margin-top: -20px; " placeholder="Address...."></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <div class="input-field">
+                <label for="about">About:</label><br>
+                <textarea name="About" id="about" cols="20" rows="10" style="width:106%; margin-top: -20px; "
+                  placeholder="About...."></textarea>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col-sm-12" style=" margin-right:50px; align-items: center;">
+            <button>Continue</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
